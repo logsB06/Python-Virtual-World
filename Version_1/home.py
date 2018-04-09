@@ -13,10 +13,10 @@ blockSize = 10
 # Functions
 class Game:
     def __init__(self, tk, canvas):
-        self.canvasArray = []
         self.user_Id = canvas.create_oval(0, 0, 10, 10, fill="black")
         self.tk = tk
         self.canvas = canvas
+        self.canvasArray = []
         
     def update(self):
         self.tk.update_idletasks()
