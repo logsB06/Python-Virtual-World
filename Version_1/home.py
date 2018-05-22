@@ -8,8 +8,8 @@ tk = Tk()
 canvas = Canvas(tk, width=500, height=500, bd=0, highlightthickness=0)
 canvas.pack()
 # Variables
-blockSize = 10
 background = canvas.create_rectangle(0, 0, 600, 600, fill="pink", outline="pink")
+blockSize = 10
 # Functions
 class Game:
     def __init__(self, tk, canvas):
